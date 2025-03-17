@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 
-const Contact = () => {
+const Wedding = () => {
   return (
     <>
       <Header />
-      <div className="mt-[64px]">info</div>
+      <div className="mt-[64px]">Wedding</div>
       <Footer />
     </>
   );
 };
 
-export default Contact;
+export default Wedding;

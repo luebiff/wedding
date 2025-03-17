@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex  text-2xl gap-4">
-      <Link to="/">Home</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/">Hem</Link>
+      <Link to="/bröllopet">Bröllopet</Link>
+      <Link to="/info">Info</Link>
+      <Link to="/osa">O.S.A</Link>
+      <Link to="/kontakt">Kontakt</Link>
     </div>
   );
 };

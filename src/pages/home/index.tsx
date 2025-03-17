@@ -6,10 +6,11 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="flex items-center justify-center   bg-blend-overlay bg-gray-600 bg-[url(/src\assets\one_year.jpg)] bg-cover h-screen">
+      <div className="flex items-center justify-center bg-blend-overlay bg-gray-600 bg-[url(/src\assets\one_year.jpg)] bg-cover h-screen">
         <div className="text-white flex flex-col items-center">
-          <div className="text-8xl">Anna & Anders</div>
-          <div className="text-6xl">2026-01-10</div>
+          <div className="text-3xl">Välkommen på bröllop</div>
+          <div className="text-8xl mb-2">Anna & Anders</div>
+          <div className="text-3xl">10 JANUARI 2026</div>
         </div>
       </div>
 
