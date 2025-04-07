@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Header />
-      <div className="mt-[64px]">info</div>
+      <div className="mt-[64px]">kontakt</div>
       <Footer />
     </>
   );
