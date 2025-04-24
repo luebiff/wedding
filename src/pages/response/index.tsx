@@ -145,10 +145,7 @@ const Response = () => {
               handleChange={handleChange}
             />
 
-            <button
-              className="rounded bg-[#c29b6b] p-4 mt-4"
-              onClick={onSubmit}
-            >
+            <button className="rounded bg-gold p-4 mt-4" onClick={onSubmit}>
               Skicka
             </button>
           </div>

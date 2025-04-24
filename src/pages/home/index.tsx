@@ -1,14 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHandshake,
-  faBed,
-  faMasksTheater,
-} from "@fortawesome/free-solid-svg-icons";
 import Hero from "./Hero";
-import CallToAction from "./CallToAction";
 import InfoCards from "./InfoCards";
 
 const Home = () => {
@@ -16,7 +9,6 @@ const Home = () => {
     <>
       <Header />
       <Hero />
-      <CallToAction />
 
       <div className="grid grid-cols-2 gap-2 mb-10 p-10">
         <div>
