@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: "OleoScriptRegular";
+  src: url("../src/assets/fonts/OleoScript-Regular.ttf");
+}
+
+@font-face {
   font-family: "Biryani";
   src: url("../src/assets/fonts/Biryani-Regular.ttf");
 }
@@ -30,9 +35,25 @@
 
 @theme {
   --font-OleoScript: "OleoScript", "sans-serif";
+  --font-OleoScriptRegular: "OleoScriptRegular", "sans-serif";
   --color-gold: #c29b6b;
 }
 
+@keyframes autoShowAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.autoShow {
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
 /* a {
   font-weight: 500;
   color: #646cff;
