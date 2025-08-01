@@ -6,68 +6,90 @@ const Info = () => {
   return (
     <>
       <Header />
-      <div className="mt-[64px]">
-        <div>
-          <div>Övrig Information</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
+      <div className="mt-[64px] p-10">
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Övrig Information</h3>
+          <p className="font-Biryani">
+            Vi skulle bli superglada om ni ville komma redan på fredagen och
+            börja festen lite i förväg! Restaurangen är öppen både fredag kväll
+            och lördag lunch för den som vill äta på plats. Om ni hellre önskar
+            annan mat finns det flera andra restauranger bara 5–10 minuter bort
+            med bil. Vigseln börjar kl. 14.00, så en lunch innan kan vara en
+            smart idé (viktigt att tänka på blodsockret). Vi avslutar helgen med
+            en mysig frukost tillsammans på söndagen, för att ladda om
+            batterierna efter all dans och fest. Och bara så det är sagt: vi
+            står förstås för själva bröllopet och middagen på kvällen, men
+            resten – som rum och extra måltider – är för egen plånbok. Så, packa
+            era bästa partyoutfits och ert glada humör!
           </p>
         </div>
-        <div>
-          <div>Viktiga personer</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Boende</h3>
+          <p className="font-Biryani">
+            För den som vill slå klackarna i taket hela helgen finns det
+            möjlighet att övernatta på Balingsholm. Priser och info om rum,
+            frukost, lunch med mera hittar ni här:
+            <a href="https://www.balingsholm.se/hotell/">
+              (lägg in länk Anders)
+            </a>
+            .
           </p>
         </div>
-        <div>
-          <div>Boende</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Tal & spex</h3>
+          <p className="font-Biryani">
+            Om någon av våra gäster är sugna på att hålla något tal, spexa,
+            sjunga eller annat så är det mycket välkommet och uppskattat. Våra
+            fantastiska toastmasters tar gärna emot era mail på adressen:
+            andersochanna.toast@gmail.com
           </p>
         </div>
-        <div>
-          <div>Tal & spex</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Klädsel mörk kavaj</h3>
+          <p className="font-Biryani">
+            Vi önskar att våra gäster klär sig i mörka färger på lördag – tänk
+            elegans med en touch av mystik! För att hjälpa er på traven har vi
+            slängt in några bilder på den stil vi drömmer om. Så inga
+            flamingofärger eller discokulor, tack!
+          </p>
+          <div>bilder</div>
+        </div>
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Transport</h3>
+          <p className="font-Biryani">
+            Det är lätt att ta sig hit med bil och parkering finns i anslutning
+            till Balingsholm Herrgård. Vi hoppas att så många som möjligt vill
+            stanna kvar över natten.
+          </p>
+          <p className="font-Biryani">
+            Mellan balingsholm och Huddinge kyrka är det ca 10 minuters bilfärd.
+            Vi där vi tar er själva på det sätt ni själva önskar. Vi har alltså
+            ingen buss eller liknande som kommer transportera er.
+          </p>
+          <div>
+            <p>Hitta hit</p>
+            <p className="font-Biryani">Balingsnäsvägen 27, 141 91 Huddinge</p>
+          </div>
+          <div>karta med pin??</div>
+        </div>
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Barn</h3>
+          <p className="font-Biryani">
+            Vi älskar era ungar men denna helg passar det bättre att de är hemma
+            med sin barnvakt. Barn under ett år som ammas är förstås välkomna.
           </p>
         </div>
-        <div>
-          <div>Klädkod</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
+        <div className="mb-6">
+          <h3 className="font-OleoScript text-4xl mb-3">Fotografering</h3>
+          <p className="font-Biryani">
+            Vi kommer att ha en proffessionell fotograf och filmare under
+            vigseln och festen. Vi räknar med att fånga alla våra gäster på bild
+            helst från er bästa sida.
           </p>
-        </div>
-        <div>
-          <div>Transport</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
-          </p>
-        </div>
-        <div>
-          <div>Barn</div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            exercitationem ab aliquid nostrum, fugit quam quos, illo ad vitae
-            nesciunt libero excepturi. Illum optio neque facilis sit laudantium
-            quam quidem.
+          <p className="font-Biryani">
+            Vi vill gärna att ni också fotograferar. Ni fångar säkert sådant som
+            vår fotograf och filmare inte gör men var gärna lite diskreta och
+            försök att inte stå ivägen för dem.
           </p>
         </div>
       </div>
