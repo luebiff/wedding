@@ -14,8 +14,8 @@ const InfoCards = () => {
           <h2 className="text-3xl font-OleoScript">Vigsel</h2>
         </div>
         <p className="mb-1">Datum: 10 januari 2026</p>
-        <p className="mb-1">Tid: 15:00</p>
-        <p className="mb-1">Plats: Rånäs Slott</p>
+        <p className="mb-1">Tid: 14:00</p>
+        <p className="mb-1">Plats: Huddinge kyrka</p>
       </div>
 
       <div className="flex flex-col bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
@@ -25,7 +25,7 @@ const InfoCards = () => {
             src="/src\assets\icons/dress.svg"
             alt=""
           />
-          <h2 className="text-3xl font-OleoScript">Klädkod - Kavaj</h2>
+          <h2 className="text-3xl font-OleoScript">Klädkod mörk kavaj</h2>
         </div>
         <p className="mb-3">
           Det blir ju fest, så ta det finaste du har! Tänk även på att du ska
@@ -40,12 +40,13 @@ const InfoCards = () => {
             src="/src\assets\icons/bed.svg"
             alt=""
           />
-          <h2 className="text-3xl font-OleoScript">Boende på ****</h2>
+          <h2 className="text-3xl font-OleoScript">Boende på Balingsholm</h2>
         </div>
         <p className="mb-3">
-          *** byggdes i början av 1800-talet och var storslaget redan från
-          första spadtaget, med de bästa hantverkarna och de vackraste
-          utsmyckningarna gjorda av italienska välrenommerade konstnärer.
+          Herrgården uppfördes år 1906 av byggmästare Tisell och förvärvades
+          sedan av hovförvaltningen som bostad för Gustaf V:s yngste son, prins
+          Erik, som bodde här fram till 1916. Den nuvarande verksamheten
+          startades upp 4 mars 1985.
         </p>
       </div>
 
@@ -60,8 +61,8 @@ const InfoCards = () => {
         </div>
         <p className="mb-3">
           Det är lätt att ta sig hit med bil och parkering finns i anslutning
-          till slottet. Vi hoppas att så många som möjligt vill stanna kvar över
-          natten.
+          till Balingsholm Herrgård. Vi hoppas att så många som möjligt vill
+          stanna kvar över natten.
         </p>
       </div>
       <div className="flex flex-col bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
@@ -81,7 +82,7 @@ const InfoCards = () => {
         <p className="mb-3">
           Vi vill gärna att ni också fotograferar. Ni fångar säkert sådant som
           vår fotograf och filmare inte gör men var gärna lite diskreta och
-          försök att inte stå ivägen för dem
+          försök att inte stå ivägen för dem.
         </p>
       </div>
       <div className="flex flex-col bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
