@@ -1,0 +1,81 @@
+{
+  "huvudroller": [
+    {
+      "displayName": "Anna Broomé",
+      "test": "brud",
+      "role": "Brud",
+      "image": "/src/assets/contacts/anna.png",
+      "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis officia, ratione dolorem maiores blanditiis reprehenderit quas veritatis nobis voluptatibus maxime est quam dolore quasi repellat provident laudantium hic quia molestiae consequuntur sunt? Optio, eveniet mollitia nisi doloribus sint pariatur minus molestias tempora, perspiciatis inventore ipsa, rerum explicabo atque facere necessitatibus."
+    }
+  ],
+  "biroller": [
+    {
+      "displayName": "Patrik",
+      "role": "Best man",
+      "image": "/src/assets/contacts/putte2.png",
+      "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis officia, ratione dolorem maiores blanditiis reprehenderit quas veritatis nobis voluptatibus maxime est quam dolore quasi repellat provident laudantium hic quia molestiae consequuntur sunt? Optio, eveniet mollitia nisi doloribus sint pariatur minus molestias tempora, perspiciatis inventore ipsa, rerum explicabo atque facere necessitatibus."
+    },
+    {
+      "displayName": "Rickard",
+      "role": "Best man/Toastmaster",
+      "image": "/src/assets/contacts/rickard.png",
+      "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis officia, ratione dolorem maiores blanditiis reprehenderit quas veritatis nobis voluptatibus maxime est quam dolore quasi repellat provident laudantium hic quia molestiae consequuntur sunt? Optio, eveniet mollitia nisi doloribus sint pariatur minus molestias tempora, perspiciatis inventore ipsa, rerum explicabo atque facere necessitatibus."
+    },
+    {
+      "displayName": "Elin",
+      "role": "Tärna/Toastmadam",
+      "image": "/src/assets/contacts/elin.png",
+      "bio": "Annas bästis, fadder till våra barn och idag en av våra toastmasters. Elin är en klippa, en vän som alltid ställer upp och kidnappar en på roligheter när man är en trött mamma. Idag får även gästerna se en av de sidor som alltid får Anna att gråta - Elins vackra sång! Som bästis blir man så troligt stolt över att ha en vän som Elin."
+    },
+    {
+      "displayName": "Emma",
+      "role": "Maid of honor",
+      "image": "/src/assets/contacts/emma.png",
+      "bio": "Barndomsvän och bästis till Anna. Idag är hon även maid of honor och det är en självklar roll för denna donnan. Från att ha varit små barbielekande tjejer till vindrickare och nu vuxna, mammor och gifta. En fantastisk resa och Emma är givetvis med på tåget."
+    },
+    {
+      "displayName": "Marie & Ulf",
+      "role": "Brudens mor och far",
+      "image": "/src/assets/contacts/mu.png",
+      "bio": "Brudens mor och far! Vart börjar man? Två solklara favoriter som ställer upp med poolen för fest, hämtar fulla 18 åringar och mer än gärna är barnvakt. Ulf som gärna spenderar sina söndagar med en runda disc golf och Marie som gärna tar en runda på stan istället."
+    },
+    {
+      "displayName": "Inger & Thomas",
+      "role": "Brudgummens mor och far",
+      "image": "/src/assets/contacts/it.png",
+      "bio": "Statistens mor och far! Ett relativt nygift par som varit tillsammans sedan stenåldern och som alltid öppnar upp sitt hem. Vare sig det är Basvägen eller ute på Muskö. Inger som alltid har sylt och saft redo för sin familj eller Thomas som alltid är redo för att hänga med sig lilla plutt för en golfrunda."
+    },
+    {
+      "displayName": "Mormor",
+      "role": "Gunn",
+      "image": "/src/assets/contacts/gunn.png",
+      "bio": "Brudens mormor. Mest troligtvis den äldsta gästen – och utan tvekan en av de mest glada. 92 år ung, ung med eftertryck, för det finns inget gammalt över den här kvinnan. Förutom möjligen ett och annat höftben. Men det hindrar henne inte. Hon är inte bara elegant – hon är ett original. En kvinna med stil, och en ständig påminnelse om att livet – och läppstiftet – ska bäras med stolthet."
+    },
+    {
+      "displayName": "Laila",
+      "role": "Farmor",
+      "image": "/src/assets/contacts/farmor.png",
+      "bio": "Brudgummens farmor, kvällens nästa äldsta gäst. Hela en månad yngre än den äldsta gästen. Laila är en power-gumma som under brudgummens bröllop häromåret var med och stängde dansgolvet klockan 02. Vi får hoppas på en repris denna kväll! "
+    },
+    {
+      "displayName": "Ellen Ljuvhage och Lova Lilja",
+      "role": "Brudnäbbar",
+      "image": "/src/assets/contacts/farmor.png",
+      "bio": "Två fantastiska tjejer som idag hedrar oss med sin närvaro som blomsterflickor. Ellen är kusin till Pontus och Jonathan och en av få som faktiskt fått Jonathan att lyssna på en tillsägelse. Då Lova och Pontus är trolovade i ett arrangerat äktenskap så är denna dagen ett ypperligt tillfälle för de lyckliga att öva sitt intåg i kyrkan."
+    },
+    {
+      "displayName": "Pontus och Jonathan",
+      "role": "Ringbärare",
+      "image": "/src/assets/contacts/farmor.png",
+      "bio": "Två av världens mest gulliga ungar (vi är såklart opartiska). Glada, snälla och busiga. Svårt att lyssna ibland men solklara stjärnor ändå!"
+    }
+  ],
+  "statist": [
+    {
+      "displayName": "Anders",
+      "role": "Brudgum",
+      "image": "/src/assets/contacts/anders.png",
+      "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis officia, ratione dolorem maiores blanditiis reprehenderit quas veritatis nobis voluptatibus maxime est quam dolore quasi repellat provident laudantium hic quia molestiae consequuntur sunt? Optio, eveniet mollitia nisi doloribus sint pariatur minus molestias tempora, perspiciatis inventore ipsa, rerum explicabo atque facere necessitatibus."
+    }
+  ]
+}
