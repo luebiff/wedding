@@ -41,6 +41,30 @@
   }
 }
 
+.header1 {
+  font-family: var(--font-OleoScript);
+  font-size: 3.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.header2 {
+  font-family: var(--font-OleoScript);
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.header3 {
+  font-family: var(--font-OleoScript);
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.header4 {
+  font-family: var(--font-OleoScript);
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
 .autoShow {
   animation: autoShowAnimation both;
   animation-timeline: view(70% 5%);
