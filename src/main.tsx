@@ -7,7 +7,7 @@ import Home from "./pages/home/index.tsx";
 import Wedding from "./pages/wedding/index.tsx";
 import Info from "./pages/info/index.tsx";
 import Response from "./pages/response/index.tsx";
-import Contact from "./pages/contact/index.tsx";
+import Presentation from "./pages/presentation/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
     element: <Response />,
   },
   {
-    path: "/kontakt",
-    element: <Contact />,
+    path: "/presentation",
+    element: <Presentation />,
   },
 ]);
 
