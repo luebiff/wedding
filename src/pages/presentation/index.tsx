@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import contacts from "./contactInfo.json";
 import ContactCard from "./ContactCard";
 
-const Contact = () => {
+const Presentation = () => {
   return (
     <>
       <Header />
@@ -34,4 +34,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Presentation;
