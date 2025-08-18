@@ -1,14 +1,5 @@
 {
-  "huvudroller": [
-    {
-      "displayName": "Anna Broomé",
-      "test": "brud",
-      "role": "Brud",
-      "image": "/src/assets/contacts/anna.png",
-      "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis officia, ratione dolorem maiores blanditiis reprehenderit quas veritatis nobis voluptatibus maxime est quam dolore quasi repellat provident laudantium hic quia molestiae consequuntur sunt? Optio, eveniet mollitia nisi doloribus sint pariatur minus molestias tempora, perspiciatis inventore ipsa, rerum explicabo atque facere necessitatibus."
-    }
-  ],
-  "biroller": [
+  "persons": [
     {
       "displayName": "Patrik",
       "role": "Best man",
@@ -68,14 +59,6 @@
       "role": "Ringbärare",
       "image": "/src/assets/contacts/farmor.png",
       "bio": "Två av världens mest gulliga ungar (vi är såklart opartiska). Glada, snälla och busiga. Svårt att lyssna ibland men solklara stjärnor ändå!"
-    }
-  ],
-  "statist": [
-    {
-      "displayName": "Anders",
-      "role": "Brudgum",
-      "image": "/src/assets/contacts/anders.png",
-      "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis officia, ratione dolorem maiores blanditiis reprehenderit quas veritatis nobis voluptatibus maxime est quam dolore quasi repellat provident laudantium hic quia molestiae consequuntur sunt? Optio, eveniet mollitia nisi doloribus sint pariatur minus molestias tempora, perspiciatis inventore ipsa, rerum explicabo atque facere necessitatibus."
     }
   ]
 }
