@@ -16,12 +16,16 @@
 }
 
 :root {
+  --color-bg: #fffefa;
+  --surface-color: oklch(from var(--color-bg) calc(l * 1.2) calc(c * 1.8) h);
+  --text-color: #333333;
+  --secondary-text-color: #666666;
+
   font-family: Biryani, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color: #213547;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--color-bg);
 }
 
 @theme {
@@ -44,25 +48,31 @@
 .header1 {
   font-family: var(--font-OleoScript);
   font-size: 3.5rem;
-  margin-bottom: 0.75rem;
+  /*  margin-bottom: 0.75rem; */
 }
 
 .header2 {
   font-family: var(--font-OleoScript);
   font-size: 2.5rem;
-  margin-bottom: 0.75rem;
+  /* margin-bottom: 0.75rem; */
 }
 
 .header3 {
   font-family: var(--font-OleoScript);
   font-size: 1.5rem;
-  margin-bottom: 0.75rem;
+  /*  margin-bottom: 0.75rem; */
 }
 
 .header4 {
   font-family: var(--font-OleoScript);
   font-size: 1.2rem;
-  margin-bottom: 0.75rem;
+  /* margin-bottom: 0.75rem; */
+}
+
+.header5 {
+  font-family: var(--font-OleoScript);
+  font-size: 1rem;
+  /* margin-bottom: 0.75rem; */
 }
 
 .autoShow {
