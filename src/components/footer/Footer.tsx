@@ -39,23 +39,23 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center p-14 gap-4 border-t-1 border-gray-200 mt-8">
-      <div className="text-5xl">Bröllopsdag om</div>
+    <div className="flex flex-col items-center p-14 gap-4 border-t-1 border-gray-200">
+      <div className="md:text-5xl text-4xl">Bröllopsdag om</div>
       <div className="flex gap-4">
         <div className="flex flex-col items-center">
-          <span className="text-5xl">{timeLeft.days}</span>
+          <span className="md:text-5xl text-4xl">{timeLeft.days}</span>
           <p className="text-1xl">Dagar</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl">{timeLeft.hours}</span>
+          <span className="md:text-5xl text-4xl">{timeLeft.hours}</span>
           <p className="text-1xl">Timmar</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl">{timeLeft.minutes}</span>
+          <span className="md:text-5xl text-4xl">{timeLeft.minutes}</span>
           <p className="text-1xl">Minuter</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl">{timeLeft.seconds}</span>
+          <span className="md:text-5xl text-4xl">{timeLeft.seconds}</span>
           <p className="text-1xl">Sekunder</p>
         </div>
       </div>
