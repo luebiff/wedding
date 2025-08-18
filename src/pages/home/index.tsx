@@ -11,10 +11,10 @@ const Home = () => {
       <Header />
       <Hero />
 
-      <div className="grid md:grid-cols-2 gap-2 mb-10 p-10">
+      <div className="grid md:grid-cols-2 gap-2 mb-10 p-5 md:p-10">
         <div>
           <h2 className="header2 mb-3">Vi ska gifta oss! </h2>
-          <div className="text-lg text-gray-700 grid gap-3">
+          <div className="text-lg text-[var(--secondary-text-color)] grid gap-3">
             <p>
               Efter 14 år av kärlek, två barn, en och annan handbollsmatch (mest
               Anders) – och mååååånga års väntan från Annas sida – är det

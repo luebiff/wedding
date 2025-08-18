@@ -6,9 +6,9 @@ const Info = () => {
   return (
     <>
       <Header />
-      <div className="mt-[64px] p-10">
+      <div className="mt-[64px] p-5 md:p-10 grid m-auto text-center w-full max-w-3xl">
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Övrig Information</h3>
+          <h2 className="header2">Övrig Information</h2>
           <p className="font-Biryani">
             Vi skulle bli superglada om ni ville komma redan på fredagen och
             börja festen lite i förväg! Restaurangen är öppen både fredag kväll
@@ -24,7 +24,7 @@ const Info = () => {
           </p>
         </div>
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Boende</h3>
+          <h2 className="header2">Boende</h2>
           <p className="font-Biryani">
             För den som vill slå klackarna i taket hela helgen finns det
             möjlighet att övernatta på Balingsholm. Priser och info om rum,
@@ -36,7 +36,7 @@ const Info = () => {
           </p>
         </div>
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Tal & spex</h3>
+          <h2 className="header2">Tal & spex</h2>
           <p className="font-Biryani">
             Om någon av våra gäster är sugna på att hålla något tal, spexa,
             sjunga eller annat så är det mycket välkommet och uppskattat. Våra
@@ -45,7 +45,7 @@ const Info = () => {
           </p>
         </div>
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Klädsel mörk kavaj</h3>
+          <h2 className="header2">Klädsel mörk kavaj</h2>
           <p className="font-Biryani">
             Vi önskar att våra gäster klär sig i mörka färger på lördag – tänk
             elegans med en touch av mystik! För att hjälpa er på traven har vi
@@ -55,11 +55,17 @@ const Info = () => {
           <div>bilder</div>
         </div>
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Transport</h3>
+          <h2 className="header2">Transport</h2>
           <p className="font-Biryani">
             Det är lätt att ta sig hit med bil och parkering finns i anslutning
             till Balingsholm Herrgård. Vi hoppas att så många som möjligt vill
             stanna kvar över natten.
+          </p>
+          <p className="font-Biryani">
+            Lokaltrafik Kommunalt från Stockholm (restid ca 35 min) Pendeltåg 36
+            från Stockholms central mot Södertälje centrum. Kliv av vid
+            Huddinge. Buss 744 från Huddinge centrum mot Balingsnäs. Kliv av vid
+            Balingsnäs Gå cirka 1700 meter till Balingsnäsvägen 27, Huddinge.
           </p>
           <p className="font-Biryani">
             Mellan balingsholm och Huddinge kyrka är det ca 10 minuters bilfärd.
@@ -73,14 +79,14 @@ const Info = () => {
           <div>karta med pin??</div>
         </div>
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Barn</h3>
+          <h2 className="header2">Barn</h2>
           <p className="font-Biryani">
             Vi älskar era ungar men denna helg passar det bättre att de är hemma
             med sin barnvakt. Barn under ett år som ammas är förstås välkomna.
           </p>
         </div>
         <div className="mb-6">
-          <h3 className="font-OleoScript text-4xl mb-3">Fotografering</h3>
+          <h2 className="header2">Fotografering</h2>
           <p className="font-Biryani">
             Vi kommer att ha en proffessionell fotograf och filmare under
             vigseln och festen. Vi räknar med att fånga alla våra gäster på bild
