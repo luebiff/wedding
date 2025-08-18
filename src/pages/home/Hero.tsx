@@ -1,18 +1,52 @@
-import React from "react";
-import CallToAction from "./CallToAction";
+import React, { useRef } from "react";
+import "./Hero.css"; // Assuming you have a CSS file for styles
 
 const Hero = () => {
-  return (
-    <section className="flex flex-col relative bg-[url(/src\assets\image2.jpeg)] bg-center bg-cover h-screen ">
-      <div className="font-OleoScript text-white flex flex-col  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-        <div className="text-2xl md:text-3xl">Välkommen på bröllop</div>
-        <h1 className="text-8xl">Anna & Anders</h1>
-        <div className="text-2xl md:text-3xl">10 JANUARI 2026</div>
-      </div>
+  const boundingRef = useRef<DOMRect | null>(null);
+  const onMouseMove = (ev: React.MouseEvent<HTMLDivElement>) => {
+    if (!boundingRef.current) return;
+    const x = ev.clientX - boundingRef.current.left;
+    const y = ev.clientY - boundingRef.current.top;
+    const xPercentage = x / boundingRef.current.width;
+    const yPercentage = y / boundingRef.current.height;
+    const xRotation = (xPercentage - 0.5) * 20;
+    const yRotation = (0.5 - yPercentage) * 20;
 
-      <CallToAction />
+    ev.currentTarget.style.setProperty("--x-rotation", `${yRotation}deg`);
+    ev.currentTarget.style.setProperty("--y-rotation", `${xRotation}deg`);
+  };
+
+  return (
+    <section className="flex h-screen w-full items-center justify-center">
+      <div className="[perspective:800px]">
+        <div
+          className="welcomeCard flex md:flex-row flex-col md:w-[700px] w-[350px] md:h-[350px] h-[450px] p-10 rounded-md hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)] font-OleoScript bg-[#faf8ef] text-black text-center transition-transform ease-out "
+          onMouseLeave={() => (boundingRef.current = null)}
+          onMouseEnter={(ev) => {
+            boundingRef.current = ev.currentTarget.getBoundingClientRect();
+          }}
+          onMouseMove={(ev) => {
+            onMouseMove(ev);
+          }}
+        >
+          <div className="flex flex-col justify-center text-2xl basis-1/3">
+            <span className="">Lördag</span>
+            <span className="">10 JANUARI</span>
+            <span className="">2026</span>
+          </div>
+          <div className="flex flex-col justify-center basis-1/3">
+            <span className="text-5xl md:text-7xl">Anna</span>
+            <span className="text-6xl md:text-9xl">&</span>
+            <span className="text-5xl md:text-7xl">Anders</span>
+          </div>
+          <div className="flex flex-col justify-center text-xl md:text-2xl basis-1/3">
+            <span className="">Klockan 14:00</span>
+            <span className="">Huddinge kyrka</span>
+            <span className="">Mottagning Balingsholm</span>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
-
 export default Hero;
