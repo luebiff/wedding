@@ -49,15 +49,15 @@
       "bio": "Brudgummens farmor, kvällens nästa äldsta gäst. Hela en månad yngre än den äldsta gästen. Laila är en power-gumma som under brudgummens bröllop häromåret var med och stängde dansgolvet klockan 02. Vi får hoppas på en repris denna kväll! "
     },
     {
-      "displayName": "Ellen Ljuvhage och Lova Lilja",
+      "displayName": "Ellen och Lova",
       "role": "Brudnäbbar",
-      "image": "/src/assets/contacts/farmor.png",
+      "image": "/src/assets/contacts/el.png",
       "bio": "Två fantastiska tjejer som idag hedrar oss med sin närvaro som blomsterflickor. Ellen är kusin till Pontus och Jonathan och en av få som faktiskt fått Jonathan att lyssna på en tillsägelse. Då Lova och Pontus är trolovade i ett arrangerat äktenskap så är denna dagen ett ypperligt tillfälle för de lyckliga att öva sitt intåg i kyrkan."
     },
     {
       "displayName": "Pontus och Jonathan",
       "role": "Ringbärare",
-      "image": "/src/assets/contacts/farmor.png",
+      "image": "/src/assets/contacts/pj.png",
       "bio": "Två av världens mest gulliga ungar (vi är såklart opartiska). Glada, snälla och busiga. Svårt att lyssna ibland men solklara stjärnor ändå!"
     }
   ]
