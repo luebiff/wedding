@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import MyMap from "./MyMap";
 
 const Info = () => {
   return (
@@ -28,11 +30,14 @@ const Info = () => {
           <p className="font-Biryani">
             För den som vill slå klackarna i taket hela helgen finns det
             möjlighet att övernatta på Balingsholm. Priser och info om rum,
-            frukost, lunch med mera hittar ni här:
-            <a href="https://www.balingsholm.se/hotell/">
+            hittar ni här:
+            <a
+              className="text-[#B39535] hover:underline ml-0.5"
+              href="https://www.balingsholm.se/hotell/vara-hotellrum-herrgard/"
+            >
               (lägg in länk Anders)
             </a>
-            .
+            Alternativs så ringer ni dom på telefon nummer 08 608 88 80.
           </p>
         </div>
         <div className="mb-6">
@@ -52,7 +57,23 @@ const Info = () => {
             slängt in några bilder på den stil vi drömmer om. Så inga
             flamingofärger eller discokulor, tack!
           </p>
-          <div>bilder</div>
+          <div className="flex flex-col gap-5 justify-center items-center md:flex-row md:flex-wrap">
+            <img
+              className="w-120 h-100"
+              src="/src/assets/kläderDam.png"
+              alt=""
+            />
+            <img
+              className="w-120 h-100"
+              src="/src/assets/kläderDam2.png"
+              alt=""
+            />
+            <img
+              className="w-120 h-150"
+              src="/src/assets/kläderHerr.png"
+              alt=""
+            />
+          </div>
         </div>
         <div className="mb-6">
           <h2 className="header2">Transport</h2>
@@ -72,11 +93,13 @@ const Info = () => {
             Vi där vi tar er själva på det sätt ni själva önskar. Vi har alltså
             ingen buss eller liknande som kommer transportera er.
           </p>
-          <div>
-            <p>Hitta hit</p>
+          <div className="mb-3">
+            <h3 className="header3">Hitta hit</h3>
             <p className="font-Biryani">Balingsnäsvägen 27, 141 91 Huddinge</p>
           </div>
-          <div>karta med pin??</div>
+          <div className="flex justify-center items-center md:w-[500px] w-full md:h-[400px] h-[300px] m-auto">
+            <MyMap />
+          </div>
         </div>
         <div className="mb-6">
           <h2 className="header2">Barn</h2>
