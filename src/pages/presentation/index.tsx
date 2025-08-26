@@ -9,7 +9,7 @@ const Presentation = () => {
     <>
       <Header />
       <section className="mt-[64px] p-5 md:p-10">
-        <h2 className="header2 text-center mb-30">Brudfölje</h2>
+        <h2 className="header1 text-center mb-30">Brudfölje</h2>
 
         <ContactCard contacts={contacts.persons} />
       </section>

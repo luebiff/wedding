@@ -61,8 +61,8 @@ const InfoCards = () => {
         </div>
         <p className="mb-3">
           Det är lätt att ta sig hit med bil och parkering finns i anslutning
-          till Balingsholm Herrgård. Vi hoppas att så många som möjligt vill
-          stanna kvar över natten.
+          till Balingsholm Herrgård och Huddinge kyrka. Vi hoppas att så många
+          som möjligt vill stanna kvar över natten.
         </p>
       </div>
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
@@ -75,7 +75,7 @@ const InfoCards = () => {
           <h3 className="header3">Fotografering</h3>
         </div>
         <p className="mb-3">
-          Vi kommer att ha en proffessionell fotograf och filmare under vigseln
+          Vi kommer att ha en professionell fotograf och filmare under vigseln
           och festen. Vi räknar med att fånga alla våra gäster på bild helst
           från er bästa sida.
         </p>

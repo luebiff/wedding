@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../common/ScrollToTop";
 
 type MobileNavbarProps = {
   setIsNavOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -16,7 +17,7 @@ const MobileNavbar = ({ setIsNavOpen }: MobileNavbarProps) => {
         <span className="block h-0.5 w-8 bg-gray-900"></span>
         <span className="block h-0.5 w-8 bg-gray-900"></span>
       </div>
-
+      <ScrollToTop />
       <div className="absolute left-0 flex flex-col gap-4 text-xl pt-6 pl-4">
         <Link to="/">Hem</Link>
         <Link to="/bröllopet">Bröllopet</Link>

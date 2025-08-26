@@ -1,10 +1,8 @@
 @media (max-width: 768px) {
   .welcomeCard {
     position: relative;
-
     border-radius: 10px;
     display: flex;
-
     justify-content: center;
     align-items: center;
   }
@@ -22,11 +20,11 @@
     padding: 2px;
     background-image: conic-gradient(
       from var(--angle),
-      #ff824c,
-      #06762f,
-      #1a61a8,
-      #2196f3,
-      #ff824c
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.6)
     );
     border-radius: 10px;
     animation: spin 10s linear infinite;

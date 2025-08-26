@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@font-face {
+/* @font-face {
   font-family: "OleoScript";
   src: url("../src/assets/fonts/OleoScript-bold.ttf");
 }
@@ -13,24 +13,58 @@
 @font-face {
   font-family: "Biryani";
   src: url("../src/assets/fonts/Biryani-Regular.ttf");
+} */
+@font-face {
+  font-family: "Junge";
+  src: url("../src/assets/fonts/Junge-Regular.ttf");
+}
+
+@font-face {
+  font-family: "CormorantSC-Bold";
+  src: url("../src/assets/fonts/CormorantSC-Bold.ttf");
+}
+
+@font-face {
+  font-family: "CormorantSC-Light";
+  src: url("../src/assets/fonts/CormorantSC-Light.ttf");
+}
+
+@font-face {
+  font-family: "CormorantSC-Medium";
+  src: url("../src/assets/fonts/CormorantSC-Medium.ttf");
+}
+
+@font-face {
+  font-family: "CormorantSC-Regular";
+  src: url("../src/assets/fonts/CormorantSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: "CormorantSC-SemiBold";
+  src: url("../src/assets/fonts/CormorantSC-SemiBold.ttf");
 }
 
 :root {
   --color-bg: #fffefa;
   --surface-color: oklch(from var(--color-bg) calc(l * 1.2) calc(c * 1.8) h);
-  --text-color: #333333;
+  /* --button-bg: oklch(from var(--color-bg) calc(l * 3) calc(c * 5) h); */
+  --button-bg: #ede9d9;
+  --text-color: #131313;
   --secondary-text-color: #666666;
 
-  font-family: Biryani, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-Junge), sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 1rem;
   color: var(--text-color);
   background-color: var(--color-bg);
 }
 
 @theme {
-  --font-OleoScript: "OleoScript", "sans-serif";
-  --font-OleoScriptRegular: "OleoScriptRegular", "sans-serif";
+  --font-Junge: "Junge", "sans-serif";
+  --font-CormorantSC: "CormorantSC-Regular", "sans-serif";
+  --font-CormorantSCSemiBold: "CormorantSC-SemiBold", "sans-serif";
+  --font-CormorantSCBold: "CormorantSC-Bold", "sans-serif";
   --color-gold: #c29b6b;
 }
 
@@ -45,29 +79,45 @@
   }
 }
 
+.active-button {
+  background-color: var(--button-bg);
+  border: 2px solid transparent;
+  color: var(--text-color);
+  transition: 0.5s;
+}
+
+.button {
+  border: 2px solid var(--button-bg);
+}
+
 .header1 {
-  font-family: var(--font-OleoScript);
+  font-family: var(--font-CormorantSCBold);
   font-size: 3.5rem;
+  line-height: 0.9;
 }
 
 .header2 {
-  font-family: var(--font-OleoScript);
+  font-family: var(--font-CormorantSCBold);
   font-size: 2.5rem;
+  line-height: 0.9;
 }
 
 .header3 {
-  font-family: var(--font-OleoScript);
+  font-family: var(--font-CormorantSCBold);
   font-size: 1.5rem;
+  line-height: 0.9;
 }
 
 .header4 {
-  font-family: var(--font-OleoScript);
+  font-family: var(--font-CormorantSCBold);
   font-size: 1.2rem;
+  line-height: 0.9;
 }
 
 .header5 {
-  font-family: var(--font-OleoScript);
+  font-family: var(--font-CormorantSCBold);
   font-size: 1rem;
+  line-height: 0.9;
 }
 
 .autoShow {

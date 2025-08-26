@@ -12,7 +12,9 @@ const Wedding = () => {
       <Header />
       <div className="mt-[64px] p-5 md:p-10 grid m-auto text-center w-full max-w-3xl">
         <div>
-          <h2 className="header2">Viktiga tider & info för bröllopshelgen </h2>
+          <h2 className="header2 mb-3">
+            Viktiga tider & info för bröllopshelgen 
+          </h2>
           <div className="text-lg grid gap-3 ">
             <p>
               Vi är så peppade att få fira med er hela helgen – inte bara på
@@ -30,9 +32,7 @@ const Wedding = () => {
           <div className="flex justify-center gap-5 p-5">
             <button
               className={`px-4 py-2 rounded ${
-                activeSection === "friday"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-200"
+                activeSection === "friday" ? "active-button" : "button"
               }`}
               onClick={() => setActiveSection("friday")}
             >
@@ -40,9 +40,7 @@ const Wedding = () => {
             </button>
             <button
               className={`px-4 py-2 rounded ${
-                activeSection === "saturday"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-200"
+                activeSection === "saturday" ? "active-button" : "button"
               }`}
               onClick={() => setActiveSection("saturday")}
             >
@@ -50,9 +48,7 @@ const Wedding = () => {
             </button>
             <button
               className={`px-4 py-2 rounded ${
-                activeSection === "sunday"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-200"
+                activeSection === "sunday" ? "active-button" : "button"
               }`}
               onClick={() => setActiveSection("sunday")}
             >

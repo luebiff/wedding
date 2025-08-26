@@ -17,10 +17,10 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex h-screen w-full items-center justify-center">
+    <section className="mt-[64px] flex h-[500px] md:h-screen w-full items-center justify-center">
       <div className="[perspective:800px]">
         <div
-          className="welcomeCard flex md:flex-row flex-col md:w-[700px] w-[350px] md:h-[350px] h-[450px] p-10 rounded-md hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)] font-OleoScript bg-[#faf8ef] text-black text-center transition-transform ease-out "
+          className="welcomeCard flex md:flex-row flex-col p-10 rounded-md hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)] bg-[#faf8ef] text-black text-center transition-transform ease-out "
           onMouseLeave={() => (boundingRef.current = null)}
           onMouseEnter={(ev) => {
             boundingRef.current = ev.currentTarget.getBoundingClientRect();
@@ -35,14 +35,13 @@ const Hero = () => {
             <span className="">2026</span>
           </div>
           <div className="flex flex-col justify-center basis-1/3">
-            <span className="text-5xl md:text-7xl">Anna</span>
-            <span className="text-6xl md:text-9xl">&</span>
             <span className="text-5xl md:text-7xl">Anders</span>
+            <span className="text-6xl md:text-9xl font-CormorantSC">&</span>
+            <span className="text-5xl md:text-7xl">Anna</span>
           </div>
-          <div className="flex flex-col justify-center text-xl md:text-2xl basis-1/3">
+          <div className="flex flex-col justify-center text-xl md:text-2xl basis-1/3 gap-1">
             <span className="">Klockan 14:00</span>
             <span className="">Huddinge kyrka</span>
-            <span className="">Mottagning Balingsholm</span>
           </div>
         </div>
       </div>

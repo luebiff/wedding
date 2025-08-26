@@ -75,7 +75,7 @@ const ScheduleSaturday = () => {
         </span>
         <p>
           Vigseln sker i Huddinge kyrka. Rekomenderas att åka ca 13.30.
-          transport fixar ni själva
+          Transport fixar ni själva
         </p>
         <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
