@@ -1,7 +1,5 @@
-import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
 import MyMap from "./MyMap";
 
 const Info = () => {

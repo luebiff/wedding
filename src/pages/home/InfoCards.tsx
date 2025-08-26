@@ -1,6 +1,3 @@
-// InfoCards.tsx
-import React from "react";
-
 const InfoCards = () => {
   return (
     <section className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-10 p-5 md:p-10">

@@ -1,5 +1,3 @@
-import React from "react";
-
 type Contact = {
   image: string;
   displayName: string;

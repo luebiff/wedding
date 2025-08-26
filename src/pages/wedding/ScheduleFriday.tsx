@@ -1,5 +1,3 @@
-import React from "react";
-
 const ScheduleFriday = () => {
   return (
     <div className="flex flex-col gap-5 mb-10 max-w-[400px] m-auto">
