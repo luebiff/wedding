@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import InfoCards from "./InfoCards";
 import OurTimeline from "./OurTimeline";
 import myVideo from "../../assets/video.mp4";
+import muskö from "../../assets/muskö.jpg";
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
         </div>
         <img
           className="w-full h-96 object-cover mt-10"
-          src={import.meta.env.BASE_URL + "/src/assets/muskö.jpg"}
+          src={muskö}
           alt="Anna och Anders Muskö"
         />
       </div>
