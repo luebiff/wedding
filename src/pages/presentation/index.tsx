@@ -1,16 +1,16 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import contacts from "./contactInfo.json";
-import putteImg from "../../assets/images/putte2.jpg";
-import emmaImg from "../../assets/images/emma.jpg";
-import rickardImg from "../../assets/images/rickard.jpg";
-import elinImg from "../../assets/images/elin.jpg";
-import muImg from "../../assets/images/mu.jpg";
-import itImg from "../../assets/images/it.jpg";
-import gunnImg from "../../assets/images/gunn.jpg";
-import farmorImg from "../../assets/images/farmor.jpg";
-import elImg from "../../assets/images/el.jpg";
-import pjImg from "../../assets/images/pj.jpg";
+import putteImg from "../../assets/images/putte2.png";
+import emmaImg from "../../assets/images/emma.png";
+import rickardImg from "../../assets/images/rickard.png";
+import elinImg from "../../assets/images/elin.png";
+import muImg from "../../assets/images/mu.png";
+import itImg from "../../assets/images/it.png";
+import gunnImg from "../../assets/images/gunn.png";
+import farmorImg from "../../assets/images/farmor.png";
+import elImg from "../../assets/images/el.png";
+import pjImg from "../../assets/images/pj.png";
 
 const Presentation = () => {
   return (
