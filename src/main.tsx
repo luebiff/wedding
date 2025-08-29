@@ -9,29 +9,34 @@ import Info from "./pages/info/index.tsx";
 import Response from "./pages/response/index.tsx";
 import Presentation from "./pages/presentation/index.tsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+      errorElement: <div>404 Not found</div>,
+    },
+    {
+      path: "/bröllopet",
+      element: <Wedding />,
+    },
+    {
+      path: "/info",
+      element: <Info />,
+    },
+    {
+      path: "/osa",
+      element: <Response />,
+    },
+    {
+      path: "/brudfölje",
+      element: <Presentation />,
+    },
+  ],
   {
-    path: "/",
-    element: <Home />,
-    errorElement: <div>404 Not found</div>,
-  },
-  {
-    path: "/bröllopet",
-    element: <Wedding />,
-  },
-  {
-    path: "/info",
-    element: <Info />,
-  },
-  {
-    path: "/osa",
-    element: <Response />,
-  },
-  {
-    path: "/brudfölje",
-    element: <Presentation />,
-  },
-]);
+    basename: "/wedding",
+  }
+);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
