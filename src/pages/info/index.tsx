@@ -1,6 +1,9 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import MyMap from "./MyMap";
+import clothesWoman1 from "../../assets/kläderDam.png";
+import clothesWoman2 from "../../assets/kläderDam2.png";
+import clothesMan from "../../assets/kläderHerr.png";
 
 const Info = () => {
   return (
@@ -79,19 +82,15 @@ const Info = () => {
           <div className="flex flex-col gap-5 justify-center items-center md:flex-row md:flex-wrap">
             <img
               className="w-120 h-100"
-              src="/src/assets/kläderDam.png"
-              alt=""
+              src={clothesWoman1}
+              alt="clothesWoman1"
             />
             <img
               className="w-120 h-100"
-              src="/src/assets/kläderDam2.png"
-              alt=""
+              src={clothesWoman2}
+              alt="clothesWoman2"
             />
-            <img
-              className="w-120 h-150"
-              src="/src/assets/kläderHerr.png"
-              alt=""
-            />
+            <img className="w-120 h-150" src={clothesMan} alt="clothesMan" />
           </div>
         </div>
         <div className="mb-6">

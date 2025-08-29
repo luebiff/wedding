@@ -1,3 +1,11 @@
+import breakfast from "../../assets/schedule/breakfast.png";
+import checkInDesk from "../../assets/schedule/check-in-desk.png";
+import restaurant from "../../assets/schedule/restaurant.png";
+import church from "../../assets/schedule/church.png";
+import decoration from "../../assets/schedule/decoration.png";
+import romanticDinner from "../../assets/schedule/romantic-dinner.png";
+import discoBall from "../../assets/schedule/disco-ball.png";
+
 const ScheduleSaturday = () => {
   return (
     <div className="flex flex-col gap-5 mb-10 max-w-[400px] m-auto">
@@ -5,7 +13,7 @@ const ScheduleSaturday = () => {
       <div className="p-5 flex flex-col gap-3">
         <img
           className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/breakfast.png"
+          src={breakfast}
           alt="breakfast"
         />
         <h4 className="header4">Frukost (för fredagsgäster)</h4>
@@ -18,7 +26,7 @@ const ScheduleSaturday = () => {
       <div className="p-5 flex flex-col gap-3">
         <img
           className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/check-in-desk.png"
+          src={checkInDesk}
           alt="check-in-desk"
         />
         <h4 className="header4">Incheckning för lördagsgäster</h4>
@@ -35,7 +43,7 @@ const ScheduleSaturday = () => {
       <div className="p-5 flex flex-col gap-3">
         <img
           className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/restaurant.png"
+          src={restaurant}
           alt="restaurant"
         />
         <h4 className="header4">Lunch (valfri, egen kostnad)</h4>
@@ -62,11 +70,7 @@ const ScheduleSaturday = () => {
         <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
-        <img
-          className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/church.png"
-          alt="church"
-        />
+        <img className="w-38 h-38 m-auto mb-3" src={church} alt="church" />
         <h4 className="header4">Vigsel</h4>
         <span className="header4 text-[var(--secondary-text-color)]">
           14.00
@@ -78,11 +82,7 @@ const ScheduleSaturday = () => {
         <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
-        <img
-          className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/decoration.png"
-          alt="church"
-        />
+        <img className="w-38 h-38 m-auto mb-3" src={decoration} alt="church" />
         <h4 className="header4">Brudskål, tårta & kaffe</h4>
         <span className="header4 text-[var(--secondary-text-color)]">
           ~ 15.30
@@ -92,7 +92,7 @@ const ScheduleSaturday = () => {
       <div className="p-5 flex flex-col gap-3">
         <img
           className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/romantic-dinner.png"
+          src={romanticDinner}
           alt="romantic-dinner"
         />
         <h4 className="header4">Middag</h4>
@@ -105,8 +105,8 @@ const ScheduleSaturday = () => {
       <div className="p-5 flex flex-col gap-3">
         <img
           className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/disco-ball.png"
-          alt="disco-ball"
+          src={discoBall}
+          alt="disco ball"
         />
         <h4 className="header4">Dans & fest</h4>
         <span className="header4 text-[var(--secondary-text-color)]">

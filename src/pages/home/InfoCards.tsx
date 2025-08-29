@@ -1,13 +1,16 @@
+import ringImg from "../../assets/icons/ring.svg";
+import dressImg from "../../assets/icons/dress.svg";
+import bedImg from "../../assets/icons/bed.svg";
+import carImg from "../../assets/icons/car.svg";
+import cameraImg from "../../assets/icons/camera.svg";
+import kidsImg from "../../assets/icons/kids.svg";
+
 const InfoCards = () => {
   return (
     <section className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-10 p-5 md:p-10">
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img
-            className="w-9 h-9 mr-3"
-            src="/src\assets\icons/ring.svg"
-            alt=""
-          />
+          <img className="w-9 h-9 mr-3" src={ringImg} alt="ring icon" />
           <h3 className="header3">Vigsel</h3>
         </div>
         <p className="mb-1">Datum: 10 januari 2026</p>
@@ -17,11 +20,7 @@ const InfoCards = () => {
 
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img
-            className="w-9 h-9 mr-3"
-            src="/src\assets\icons/dress.svg"
-            alt=""
-          />
+          <img className="w-9 h-9 mr-3" src="{dressImg}" alt="dress icon" />
           <h3 className="header3">Klädkod mörk kavaj</h3>
         </div>
         <p className="mb-3">
@@ -32,11 +31,7 @@ const InfoCards = () => {
 
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img
-            className="w-9 h-9 mr-3"
-            src="/src\assets\icons/bed.svg"
-            alt=""
-          />
+          <img className="w-9 h-9 mr-3" src={bedImg} alt="bed icon" />
           <h3 className="header3">Boende på Balingsholm</h3>
         </div>
         <p className="mb-3">
@@ -49,11 +44,7 @@ const InfoCards = () => {
 
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img
-            className="w-9 h-9 mr-3"
-            src="/src\assets\icons/car.svg"
-            alt=""
-          />
+          <img className="w-9 h-9 mr-3" src={carImg} alt="car icon" />
           <h3 className="header3">Transport</h3>
         </div>
         <p className="mb-3">
@@ -64,11 +55,7 @@ const InfoCards = () => {
       </div>
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img
-            className="w-9 h-9 mr-3"
-            src="/src\assets\icons/camera.svg"
-            alt=""
-          />
+          <img className="w-9 h-9 mr-3" src={cameraImg} alt="camera icon" />
           <h3 className="header3">Fotografering</h3>
         </div>
         <p className="mb-3">
@@ -84,11 +71,7 @@ const InfoCards = () => {
       </div>
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img
-            className="w-9 h-9 mr-3"
-            src="/src\assets\icons/kids.svg"
-            alt=""
-          />
+          <img className="w-9 h-9 mr-3" src={kidsImg} alt="kids icon" />
           <h3 className="header3">Barn</h3>
         </div>
         <p className="mb-3">

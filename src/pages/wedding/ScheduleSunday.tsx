@@ -1,3 +1,6 @@
+import breakfast from "/src/assets/schedule/breakfast.png";
+import hello from "/src/assets/schedule/hello.png";
+
 const ScheduleSunday = () => {
   return (
     <div className="flex flex-col gap-5 max-w-[400px] m-auto">
@@ -5,7 +8,7 @@ const ScheduleSunday = () => {
       <div className="p-5 flex flex-col gap-3">
         <img
           className="w-38 h-38 m-auto mb-3"
-          src="/src\assets/schedule/breakfast.png"
+          src={breakfast}
           alt="breakfast"
         />
         <h4 className="header4">Frukost</h4>
@@ -16,11 +19,7 @@ const ScheduleSunday = () => {
         <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
-        <img
-          className="w-28 h-28 m-auto mb-3"
-          src="/src\assets/schedule/hello.png"
-          alt="hello"
-        />
+        <img className="w-28 h-28 m-auto mb-3" src={hello} alt="Goodbye" />
         <h4 className="header4">Utcheckning</h4>
         <span className="header4 text-[var(--secondary-text-color)]">
           senast 12.00
