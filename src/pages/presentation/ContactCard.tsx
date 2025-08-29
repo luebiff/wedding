@@ -20,7 +20,7 @@ const ContactCard = ({ contacts }: ContactCardsProps) => {
           <div className="relative flex h-70 min-w-70 max-w-70 border-2 border-gray-100 rounded-xl ">
             <img
               className="autoShow absolute bottom-0 h-90 w-80"
-              src={import.meta.env.BASE_URL + contact.image}
+              src={contact.image}
               alt={contact.displayName}
             />
           </div>
