@@ -20,7 +20,7 @@ const InfoCards = () => {
 
       <div className="flex flex-col bg-[var(--surface-color)] p-6 rounded-lg shadow hover:shadow-lg transition">
         <div className="flex items-center mb-3">
-          <img className="w-9 h-9 mr-3" src="{dressImg}" alt="dress icon" />
+          <img className="w-9 h-9 mr-3" src={dressImg} alt="dress icon" />
           <h3 className="header3">Klädkod mörk kavaj</h3>
         </div>
         <p className="mb-3">
