@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         <img
           className="w-full h-96 object-cover mt-10"
-          src="/src\assets\muskö.jpg"
+          src={import.meta.env.BASE_URL + "/src/assets/muskö.jpg"}
           alt="Anna och Anders Muskö"
         />
       </div>
