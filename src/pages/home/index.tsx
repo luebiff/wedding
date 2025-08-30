@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <Hero />
       <div>
-        <video src={myVideo} autoPlay loop></video>
+        <video className="w-full" src={myVideo} autoPlay loop></video>
       </div>
 
       <div className="grid md:grid-cols-2 gap-2 mb-10 p-5 md:p-10">
