@@ -34,7 +34,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/wedding",
+    basename: import.meta.env.BASE_URL,
   }
 );
 
