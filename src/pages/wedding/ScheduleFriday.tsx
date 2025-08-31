@@ -38,7 +38,10 @@ const ScheduleFriday = () => {
         <span className="header4 text-[var(--secondary-text-color)]">
           ~ 20.00
         </span>
-        <p>Häng, skratt & små överraskningar – fram tills...? </p>
+        <p>
+          Häng, skratt <span className="font-CormorantSC text-xl">&</span> små
+          överraskningar – fram tills...? 
+        </p>
         <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./Hero.css"; // Assuming you have a CSS file for styles
+import "./Hero.css";
 
 const Hero = () => {
   const boundingRef = useRef<DOMRect | null>(null);
