@@ -1,29 +1,54 @@
-import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import ScrollToTop from "../common/ScrollToTop";
 
-type MobileNavbarProps = {
-  setIsNavOpen: React.Dispatch<React.SetStateAction<boolean>>;
-};
-
-const MobileNavbar = ({ setIsNavOpen }: MobileNavbarProps) => {
+const MobileNavbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <section className="lg:hidden w-8">
+    <section className="md:hidden w-8">
       <div
         className="space-y-2 cursor-pointer"
-        onClick={() => setIsNavOpen((prev) => !prev)}
+        onClick={() => setIsNavOpen(!isNavOpen)}
       >
-        <span className="block h-0.5 w-8 bg-gray-900"></span>
-        <span className="block h-0.5 w-8 bg-gray-900"></span>
-        <span className="block h-0.5 w-8 bg-gray-900"></span>
+        <span
+          className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out
+          ${isNavOpen ? "rotate-45 translate-y-[10px] delay-200" : ""}
+        `}
+        />
+
+        <span
+          className={`block h-0.5 w-full bg-black transition-all duration-500  ease-in-out
+          ${
+            isNavOpen
+              ? "translate-y-[10px] opacity-0"
+              : "-translate-x-[0px] opacity-100 delay-200"
+          }
+        `}
+        />
+
+        <span
+          className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out
+          ${isNavOpen ? "-rotate-45 -translate-y-[10px] delay-200" : ""}
+        `}
+        />
       </div>
       <ScrollToTop />
-      <div className="absolute left-0 flex flex-col gap-4 text-xl pt-6 pl-4">
-        <Link to="/">Hem</Link>
-        <Link to="/bröllopet">Bröllopet</Link>
-        <Link to="/info">Info</Link>
-        <Link to="/osa">O.S.A</Link>
-        <Link to="/brudfölje">Brudfölje</Link>
+
+      <div
+        className="md:hidden w-full absolute top-16 left-0 overflow-hidden transition-[height] duration-700  bg-[var(--color-bg)]/10 backdrop-blur-sm"
+        style={isNavOpen ? { height: "100vh" } : { height: "0" }}
+        onClick={() => setIsNavOpen(false)}
+      >
+        <div
+          className="flex flex-col text-xl gap-4 bg-[var(--color-bg)] p-5"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <Link to="/">Hem</Link>
+          <Link to="/bröllopet">Bröllopet</Link>
+          <Link to="/info">Info</Link>
+          <Link to="/osa">O.S.A</Link>
+          <Link to="/brudfölje">Brudfölje</Link>
+        </div>
       </div>
     </section>
   );

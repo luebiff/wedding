@@ -1,18 +1,15 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import MobileNavbar from "../navbar/MobileNavbar";
 
 const Header = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
   return (
-    <div
-      className="transition-[height] duration-700 flex fixed top-0 right-0 left-0 z-500 justify-between text-black bg-white p-4 overflow-hidden"
-      style={isNavOpen ? { height: "100vh" } : { height: "64px" }}
-    >
-      <div className="font-CormorantSCBold text-4xl leading-[32px] ">A&A</div>
+    <div className="flex fixed top-0 right-0 left-0 z-500 justify-between items-center text-black bg-[var(--color-bg)] md:bg-transparent p-4">
+      <Link to="/" className="font-CormorantSCBold text-4xl md:hidden">
+        A&A
+      </Link>
       <Navbar />
-      <MobileNavbar setIsNavOpen={setIsNavOpen} />
+      <MobileNavbar />
     </div>
   );
 };
