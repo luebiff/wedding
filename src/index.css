@@ -1,19 +1,5 @@
 @import "tailwindcss";
 
-/* @font-face {
-  font-family: "OleoScript";
-  src: url("../src/assets/fonts/OleoScript-bold.ttf");
-}
-
-@font-face {
-  font-family: "OleoScriptRegular";
-  src: url("../src/assets/fonts/OleoScript-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Biryani";
-  src: url("../src/assets/fonts/Biryani-Regular.ttf");
-} */
 @font-face {
   font-family: "Junge";
   src: url("../src/assets/fonts/Junge-Regular.ttf");
@@ -47,10 +33,11 @@
 :root {
   --color-bg: #fffefa;
   --surface-color: oklch(from var(--color-bg) calc(l * 1.2) calc(c * 1.8) h);
-  /* --button-bg: oklch(from var(--color-bg) calc(l * 3) calc(c * 5) h); */
   --button-bg: #ede9d9;
   --text-color: #131313;
   --secondary-text-color: #666666;
+  --color-bg-hover: #fffefa9f;
+  --button-bg-hover: #ede9d99f;
 
   font-family: var(--font-Junge), sans-serif;
   line-height: 1.5;
@@ -138,18 +125,6 @@
   left: 0;
 }
 
-/* a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
-} */
-
 body {
   margin: 0;
-  /*   min-width: 320px;
-  min-height: 100vh; */
 }

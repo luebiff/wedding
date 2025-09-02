@@ -8,9 +8,7 @@ const Response = () => {
     <>
       <Header />
 
-      <div className="mt-[64px] ">
-        <YouFormEmbed formId="woutotik" width="100%" height="700vh" />
-      </div>
+      <YouFormEmbed formId="woutotik" width="100%" height="700vh" />
 
       <Footer />
     </>
