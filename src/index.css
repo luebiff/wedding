@@ -38,6 +38,7 @@
   --secondary-text-color: #666666;
   --color-bg-hover: #fffefa9f;
   --button-bg-hover: #ede9d99f;
+  --text-color-hover: #3c3c3c;
 
   font-family: var(--font-Junge), sans-serif;
   line-height: 1.5;

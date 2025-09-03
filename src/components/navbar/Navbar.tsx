@@ -46,8 +46,8 @@ const Navbar = () => {
                   ? "border-b-6 border-[var(--button-bg)]"
                   : "border-b-6 border-[var(--color-bg)]"
                 : scrolled
-                ? "border-b-6 hover:border-[var(--button-bg-hover)]"
-                : "border-b-6 hover:border-[var(--color-bg-hover)]"
+                ? "border-b-6 hover:border-[var(--button-bg-hover)] hover:text-[var(--text-color-hover)]"
+                : "border-b-6 hover:border-[var(--color-bg-hover)] hover:text-[var(--text-color-hover)]"
             }`
           }
         >
@@ -62,8 +62,8 @@ const Navbar = () => {
                   ? "border-b-6 border-[var(--button-bg)]"
                   : "border-b-6 border-[var(--color-bg)]"
                 : scrolled
-                ? "border-b-6 hover:border-[var(--button-bg-hover)]"
-                : "border-b-6 hover:border-[var(--color-bg-hover)]"
+                ? "border-b-6 hover:border-[var(--button-bg-hover)] hover:text-[var(--text-color-hover)]"
+                : "border-b-6 hover:border-[var(--color-bg-hover)] hover:text-[var(--text-color-hover)]"
             }`
           }
         >
@@ -72,14 +72,14 @@ const Navbar = () => {
         <NavLink
           to="/info"
           className={({ isActive }) =>
-            `p-3 transition-colors border-transparent duration-500 bg-[transparent] text-[var(--text-color)] ${
+            `p-3 transition-colors border-b-6 border-[transparent] duration-500 text-[var(--text-color)] ${
               isActive
                 ? scrolled
                   ? "border-b-6 border-[var(--button-bg)]"
                   : "border-b-6 border-[var(--color-bg)]"
                 : scrolled
-                ? "border-b-6 hover:border-[var(--button-bg-hover)]"
-                : "border-b-6 hover:border-[var(--color-bg-hover)]"
+                ? "border-b-6 hover:border-[var(--button-bg-hover)] hover:text-[var(--text-color-hover)]"
+                : "border-b-6 hover:border-[var(--color-bg-hover)] hover:text-[var(--text-color-hover)]"
             }`
           }
         >
@@ -88,14 +88,14 @@ const Navbar = () => {
         <NavLink
           to="/osa"
           className={({ isActive }) =>
-            `p-3 transition-colors border-transparent duration-500 bg-[transparent] text-[var(--text-color)] ${
+            `p-3 transition-colors border-b-6 border-[transparent] duration-500 text-[var(--text-color)] ${
               isActive
                 ? scrolled
                   ? "border-b-6 border-[var(--button-bg)]"
                   : "border-b-6 border-[var(--color-bg)]"
                 : scrolled
-                ? "border-b-6 hover:border-[var(--button-bg-hover)]"
-                : "border-b-6 hover:border-[var(--color-bg-hover)]"
+                ? "border-b-6 hover:border-[var(--button-bg-hover)] hover:text-[var(--text-color-hover)]"
+                : "border-b-6 hover:border-[var(--color-bg-hover)] hover:text-[var(--text-color-hover)]"
             }`
           }
         >
@@ -104,14 +104,14 @@ const Navbar = () => {
         <NavLink
           to="/brudfölje"
           className={({ isActive }) =>
-            `p-3 transition-colors border-transparent duration-500 bg-[transparent] text-[var(--text-color)] ${
+            `p-3 transition-colors border-b-6 border-[transparent] duration-500 text-[var(--text-color)] ${
               isActive
                 ? scrolled
                   ? "border-b-6 border-[var(--button-bg)]"
                   : "border-b-6 border-[var(--color-bg)]"
                 : scrolled
-                ? "border-b-6 hover:border-[var(--button-bg-hover)]"
-                : "border-b-6 hover:border-[var(--color-bg-hover)]"
+                ? "border-b-6 hover:border-[var(--button-bg-hover)] hover:text-[var(--text-color-hover)]"
+                : "border-b-6 hover:border-[var(--color-bg-hover)] hover:text-[var(--text-color-hover)]"
             }`
           }
         >
