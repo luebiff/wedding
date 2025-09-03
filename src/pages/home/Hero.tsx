@@ -20,7 +20,7 @@ const Hero = () => {
     <section className="mt-[64px] flex h-[500px] md:h-screen w-full items-center justify-center">
       <div className="[perspective:800px]">
         <div
-          className="welcomeCard flex md:flex-row flex-col p-10 rounded-md hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)] bg-[#faf8ef] text-black text-center transition-transform ease-out "
+          className="welcomeCard flex md:flex-row flex-col gap-7 p-10 rounded-md hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)] bg-[#faf8ef] text-black text-center transition-transform ease-out "
           onMouseLeave={() => (boundingRef.current = null)}
           onMouseEnter={(ev) => {
             boundingRef.current = ev.currentTarget.getBoundingClientRect();
