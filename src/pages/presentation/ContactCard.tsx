@@ -27,7 +27,7 @@ const ContactCard = ({ contacts }: ContactCardsProps) => {
           </div>
           <div className="items-start max-w-[600px]">
             <h2 className="header2">{contact.role}</h2>
-            <p className="mb-3 header3 text-[var(--secondary-text-color)]">
+            <p className="mb-3 header3 text-[var(--button-bg)]">
               {contact.displayName}
             </p>
             <p>{contact.bio}</p>

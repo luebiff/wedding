@@ -15,7 +15,7 @@ const Wedding = () => {
   return (
     <>
       <Header />
-      <div className="mt-[64px] p-5 md:p-10 grid m-auto text-center w-full max-w-3xl">
+      <div className="mt-[90px] p-5 md:p-10 grid m-auto text-center w-full max-w-3xl">
         <div>
           <h2 className="header2 mb-3">
             Viktiga tider & info för bröllopshelgen 

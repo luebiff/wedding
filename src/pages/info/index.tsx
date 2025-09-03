@@ -14,9 +14,9 @@ const Info = () => {
   return (
     <>
       <Header />
-      <div className="mt-[64px] p-5 md:p-10 grid m-auto text-center w-full max-w-3xl">
+      <div className="mt-[90px] p-5 md:p-10 grid m-auto text-center w-full max-w-3xl">
         <div className="mb-6">
-          <h2 className="header2">Övrig Information</h2>
+          <h2 className="header2 mb-3">Övrig Information</h2>
           <p className="font-Biryani">
             Vi skulle bli superglada om ni ville komma redan på fredagen och
             börja festen lite i förväg! Restaurangen är öppen både fredag kväll
@@ -31,7 +31,7 @@ const Info = () => {
           </p>
         </div>
         <div className="mb-6">
-          <h2 className="header2">Boende</h2>
+          <h2 className="header2 mb-3">Boende</h2>
           <p className="font-Biryani">
             För den som vill slå klackarna i taket hela helgen finns det
             möjlighet att övernatta på Balingsholm. Priser och info om rum,
@@ -46,7 +46,7 @@ const Info = () => {
           </p>
         </div>
         <div className="mb-6">
-          <h2 className="header2">Tal & spex</h2>
+          <h2 className="header2 mb-3">Tal & spex</h2>
           <div className="flex flex-col gap-3">
             <p className="font-Biryani">
               Hej kära bröllopsgäster! Vi heter Rickard och Elin och har fått
@@ -77,7 +77,7 @@ const Info = () => {
           </div>
         </div>
         <div className="mb-6">
-          <h2 className="header2">Klädsel mörk kavaj</h2>
+          <h2 className="header2 mb-3">Klädsel mörk kavaj</h2>
           <p className="font-Biryani mb-6">
             Vi önskar att våra gäster klär sig i mörka färger på lördag – tänk
             elegans med en touch av mystik! För att hjälpa er på traven har vi
@@ -99,7 +99,7 @@ const Info = () => {
           </div>
         </div>
         <div className="mb-6">
-          <h2 className="header2">Transport</h2>
+          <h2 className="header2 mb-3">Transport</h2>
           <div className="flex flex-col gap-3">
             <p className="font-Biryani">
               Det är lätt att ta sig hit med bil och parkering finns i
@@ -128,14 +128,14 @@ const Info = () => {
           </div>
         </div>
         <div className="mb-6">
-          <h2 className="header2">Barn</h2>
+          <h2 className="header2 mb-3">Barn</h2>
           <p className="font-Biryani">
             Vi älskar era ungar men denna helg passar det bättre att de är hemma
             med sin barnvakt. Barn under ett år som ammas är förstås välkomna.
           </p>
         </div>
         <div className="mb-6">
-          <h2 className="header2">Fotografering</h2>
+          <h2 className="header2 mb-3">Fotografering</h2>
           <div className="flex flex-col gap-3">
             <p className="font-Biryani">
               Vi kommer att ha en proffessionell fotograf och filmare under

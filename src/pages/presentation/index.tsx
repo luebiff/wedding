@@ -21,10 +21,9 @@ const Presentation = () => {
   return (
     <>
       <Header />
-      <section className="mt-[64px] p-5 md:p-10">
+      <section className="mt-[90px] p-5 md:p-10">
         <h2 className="header1 text-center mb-30">Brudfölje</h2>
 
-        {/* <ContactCard contacts={contacts.persons} /> */}
         <div className="flex flex-col md:flex-row  md:gap-10 mb-30 md:text-left text-center items-center md:items-start">
           <div className="relative flex h-70 min-w-70 max-w-70 border-2 border-gray-100 rounded-xl ">
             <img
