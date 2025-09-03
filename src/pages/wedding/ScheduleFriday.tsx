@@ -13,11 +13,10 @@ const ScheduleFriday = () => {
           alt="check-in-desk"
         />
         <h4 className="header4">Incheckning</h4>
-        <span className="header4 text-[var(--secondary-text-color)]">
+        <span className="header4 text-[var(--secondary-text-color)] mb-5">
           Från 14.00
         </span>
-        <p></p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img
@@ -26,11 +25,10 @@ const ScheduleFriday = () => {
           alt="restaurant"
         />
         <h4 className="header4">Middag</h4>
-        <span className="header4 text-[var(--secondary-text-color)]">
+        <span className="header4 text-[var(--secondary-text-color)] mb-5">
           18.00
         </span>
-        <p></p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img className="w-38 h-38 m-auto mb-3" src={drink} alt="drink" />
@@ -42,7 +40,6 @@ const ScheduleFriday = () => {
           Häng, skratt <span className="font-CormorantSC text-xl">&</span> små
           överraskningar – fram tills...? 
         </p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
     </div>
   );

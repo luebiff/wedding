@@ -36,7 +36,7 @@ const Wedding = () => {
         <div>
           <div className="flex justify-center gap-5 p-5">
             <button
-              className={`px-4 py-2 rounded ${
+              className={`px-4 py-2 rounded cursor-pointer  ${
                 activeSection === "friday" ? "active-button" : "button"
               }`}
               onClick={() => setActiveSection("friday")}
@@ -44,7 +44,7 @@ const Wedding = () => {
               Fredag
             </button>
             <button
-              className={`px-4 py-2 rounded ${
+              className={`px-4 py-2 rounded cursor-pointer ${
                 activeSection === "saturday" ? "active-button" : "button"
               }`}
               onClick={() => setActiveSection("saturday")}
@@ -52,7 +52,7 @@ const Wedding = () => {
               Lördag
             </button>
             <button
-              className={`px-4 py-2 rounded ${
+              className={`px-4 py-2 rounded cursor-pointer ${
                 activeSection === "sunday" ? "active-button" : "button"
               }`}
               onClick={() => setActiveSection("sunday")}

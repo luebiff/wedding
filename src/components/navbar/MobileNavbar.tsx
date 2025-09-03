@@ -46,7 +46,7 @@ const MobileNavbar = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+              isActive ? "text-[var(--color-gold)]" : "text-[var(--text-color)]"
             }
           >
             Hem
@@ -54,7 +54,7 @@ const MobileNavbar = () => {
           <NavLink
             to="/bröllopet"
             className={({ isActive }) =>
-              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+              isActive ? "text-[var(--color-gold)]" : "text-[var(--text-color)]"
             }
           >
             Bröllopet
@@ -62,7 +62,7 @@ const MobileNavbar = () => {
           <NavLink
             to="/info"
             className={({ isActive }) =>
-              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+              isActive ? "text-[var(--color-gold)]" : "text-[var(--text-color)]"
             }
           >
             Info
@@ -70,7 +70,7 @@ const MobileNavbar = () => {
           <NavLink
             to="/osa"
             className={({ isActive }) =>
-              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+              isActive ? "text-[var(--color-gold)]" : "text-[var(--text-color)]"
             }
           >
             O.S.A
@@ -78,7 +78,7 @@ const MobileNavbar = () => {
           <NavLink
             to="/brudfölje"
             className={({ isActive }) =>
-              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+              isActive ? "text-[var(--color-gold)]" : "text-[var(--text-color)]"
             }
           >
             Brudfölje

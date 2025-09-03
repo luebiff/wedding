@@ -39,6 +39,7 @@
   --color-bg-hover: #fffefa9f;
   --button-bg-hover: #ede9d99f;
   --text-color-hover: #3c3c3c;
+  --color-gold: #b39535;
 
   font-family: var(--font-Junge), sans-serif;
   line-height: 1.5;
@@ -53,7 +54,6 @@
   --font-CormorantSC: "CormorantSC-Regular", "sans-serif";
   --font-CormorantSCSemiBold: "CormorantSC-SemiBold", "sans-serif";
   --font-CormorantSCBold: "CormorantSC-Bold", "sans-serif";
-  --color-gold: #c29b6b;
 }
 
 @keyframes autoShowAnimation {

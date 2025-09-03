@@ -37,7 +37,7 @@ const Info = () => {
             möjlighet att övernatta på Balingsholm. Priser och info om rum,
             hittar ni här:
             <a
-              className="text-[#B39535] hover:underline ml-0.5"
+              className="text-[var(--color-gold)] hover:underline ml-0.5 mr-0.5"
               href="https://www.balingsholm.se/hotell/vara-hotellrum-herrgard/"
             >
               (lägg in länk Anders)

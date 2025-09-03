@@ -17,11 +17,10 @@ const ScheduleSaturday = () => {
           alt="breakfast"
         />
         <h4 className="header4">Frukost (för fredagsgäster)</h4>
-        <span className="header4 text-[var(--secondary-text-color)]">
+        <span className="header4 text-[var(--secondary-text-color)] mb-5">
           08.30–10.00
         </span>
-        <p></p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img
@@ -33,12 +32,12 @@ const ScheduleSaturday = () => {
         <span className="header4 text-[var(--secondary-text-color)]">
           Från 11.00
         </span>
-        <p>
+        <p className="mb-5">
           Innan vigseln om du vill hinna piffa dig på hotellet. Eller efter
           vigseln (OBS! Du riskerar då att missa delar av brudskålen och tårtan,
           så vi rekommenderar att checka in innan!)
         </p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img
@@ -63,11 +62,11 @@ const ScheduleSaturday = () => {
           </ul>
         </div>
 
-        <p>
+        <p className="mb-5">
           = Lunch? Kanske inte nödvändigt – men vissa (host Anders) kanske
           behöver det
         </p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img className="w-38 h-38 m-auto mb-3" src={church} alt="church" />
@@ -79,15 +78,15 @@ const ScheduleSaturday = () => {
           Vigseln sker i Huddinge kyrka. Rekomenderas att åka ca 13.30.
           Transport fixar ni själva
         </p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img className="w-38 h-38 m-auto mb-3" src={decoration} alt="church" />
         <h4 className="header4">Brudskål, tårta & kaffe</h4>
-        <span className="header4 text-[var(--secondary-text-color)]">
+        <span className="header4 text-[var(--secondary-text-color)] mb-5">
           ~ 15.30
         </span>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img
@@ -99,8 +98,8 @@ const ScheduleSaturday = () => {
         <span className="header4 text-[var(--secondary-text-color)]">
           ~ 17.00
         </span>
-        <p>Anna gråter igen....</p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
+        <p className="mb-5">Anna gråter igen....</p>
+        <div className="bg-[var(--button-bg)] w-16 h-1 m-auto"></div>
       </div>
       <div className="p-5 flex flex-col gap-3">
         <img
@@ -110,14 +109,13 @@ const ScheduleSaturday = () => {
         />
         <h4 className="header4">Dans & fest</h4>
         <span className="header4 text-[var(--secondary-text-color)]">
-          ~ 17.00
+          Till 01.30
         </span>
         <p>
           Efter middagen kör vi igång dansgolvet. Musik till 01.30.Glöm inte att
           önska låt när ni OSA – men välj med omsorg. Dålig musik = ingen plats
           på spellistan .
         </p>
-        <div className="bg-gray-200 w-16 h-1 m-auto"></div>
       </div>
     </div>
   );
