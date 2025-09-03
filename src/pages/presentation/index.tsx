@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import contacts from "./contactInfo.json";
@@ -13,6 +14,10 @@ import elImg from "../../assets/contacts/el.png";
 import pjImg from "../../assets/contacts/pj.png";
 
 const Presentation = () => {
+  useEffect(() => {
+    document.title = "Brudfölje | Anders Och Annas Bröllop";
+  }, []);
+
   return (
     <>
       <Header />

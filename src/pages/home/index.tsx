@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Hero from "./Hero";
@@ -8,6 +9,10 @@ import muskö from "../../assets/muskö.jpg";
 import ImgParallelEffect from "./ImgParallelEffect";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Hem | Anders Och Annas Bröllop";
+  }, []);
+
   return (
     <>
       <Header />

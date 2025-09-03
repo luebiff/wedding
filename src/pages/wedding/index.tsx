@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ScheduleFriday from "./ScheduleFriday";
@@ -7,6 +7,11 @@ import ScheduleSunday from "./ScheduleSunday";
 
 const Wedding = () => {
   const [activeSection, setActiveSection] = useState("friday");
+
+  useEffect(() => {
+    document.title = "Bröllopet | Anders Och Annas Bröllop";
+  }, []);
+
   return (
     <>
       <Header />

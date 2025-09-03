@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import MyMap from "./MyMap";
@@ -6,6 +7,10 @@ import clothesWoman2 from "../../assets/kläderDam2.png";
 import clothesMan from "../../assets/kläderHerr.png";
 
 const Info = () => {
+  useEffect(() => {
+    document.title = "Info | Anders Och Annas Bröllop";
+  }, []);
+
   return (
     <>
       <Header />
