@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ScrollToTop from "../common/ScrollToTop";
 
 const MobileNavbar = () => {
@@ -43,11 +43,46 @@ const MobileNavbar = () => {
           className="flex flex-col text-xl gap-4 bg-[var(--color-bg)] p-5"
           onClick={(e) => e.stopPropagation()}
         >
-          <Link to="/">Hem</Link>
-          <Link to="/bröllopet">Bröllopet</Link>
-          <Link to="/info">Info</Link>
-          <Link to="/osa">O.S.A</Link>
-          <Link to="/brudfölje">Brudfölje</Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+            }
+          >
+            Hem
+          </NavLink>
+          <NavLink
+            to="/bröllopet"
+            className={({ isActive }) =>
+              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+            }
+          >
+            Bröllopet
+          </NavLink>
+          <NavLink
+            to="/info"
+            className={({ isActive }) =>
+              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+            }
+          >
+            Info
+          </NavLink>
+          <NavLink
+            to="/osa"
+            className={({ isActive }) =>
+              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+            }
+          >
+            O.S.A
+          </NavLink>
+          <NavLink
+            to="/brudfölje"
+            className={({ isActive }) =>
+              isActive ? "text-[var(--button-bg)] " : "text-[var(--text-color)]"
+            }
+          >
+            Brudfölje
+          </NavLink>
         </div>
       </div>
     </section>
