@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 import MobileNavbar from "../navbar/MobileNavbar";
 
 type HeaderProps = {
-  scrolled: boolean;
+  scrolled?: boolean;
 };
 
 const Header = ({ scrolled }: HeaderProps) => {
