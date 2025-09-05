@@ -1,31 +1,12 @@
-import { useEffect, useState, useRef } from "react";
+/* import { useEffect, useState, useRef } from "react"; */
 import { NavLink } from "react-router-dom";
 import ScrollToTop from "../common/ScrollToTop";
 
-const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
-  const wrapperRef = useRef<HTMLDivElement>(null);
+type NavbarProps = {
+  scrolled: boolean;
+};
 
-  useEffect(() => {
-    const wrapper = wrapperRef.current;
-    if (!wrapper) {
-      const onScroll = () => {
-        setScrolled(window.scrollY > 50);
-      };
-
-      window.addEventListener("scroll", onScroll);
-      return () => window.removeEventListener("scroll", onScroll);
-    }
-
-    const onScroll = () => {
-      setScrolled(wrapper.scrollTop > 50);
-      console.log("scrolling inside wrapper");
-    };
-
-    wrapper.addEventListener("scroll", onScroll);
-    return () => wrapper.removeEventListener("scroll", onScroll);
-  }, []);
-
+const Navbar = ({ scrolled }: NavbarProps) => {
   return (
     <>
       <ScrollToTop />
