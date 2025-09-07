@@ -33,10 +33,7 @@ const Home = () => {
       <div className="wrapper" ref={wrapperRef}>
         <Hero />
 
-        <div>
-          <video className="w-full" src={myVideo} autoPlay loop></video>
-        </div>
-        <div className="grid md:grid-cols-2 gap-2 mb-10 p-5 md:p-10">
+        <div className="grid md:grid-cols-2 gap-3 md:gap-10 mb-10 p-5 md:p-10">
           <div>
             <h2 className="header2 mb-3">Vi ska gifta oss!</h2>
             <div className="text-lg text-[var(--secondary-text-color)] grid gap-3">
@@ -58,7 +55,7 @@ const Home = () => {
             </div>
           </div>
           <img
-            className="w-full h-96 object-cover mt-10"
+            className="w-full h-96 object-cover"
             src={muskö}
             alt="Anna och Anders Muskö"
           />
@@ -68,6 +65,8 @@ const Home = () => {
         <ImgParallelEffect />
 
         <OurTimeline />
+
+        <video className="w-full" src={myVideo} autoPlay loop></video>
 
         <Footer />
       </div>

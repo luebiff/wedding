@@ -1,52 +1,55 @@
-@media (max-width: 768px) {
-  .welcomeCard {
-    position: relative;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.hero {
+  width: 100%;
+  height: 100svh;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow-x: clip;
+  padding-block: 7rem;
+  margin-block-end: 3rem;
+}
 
-  .welcomeCard::after,
-  .welcomeCard::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    padding: 2px;
-    background-image: conic-gradient(
-      from var(--angle),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.6)
-    );
-    border-radius: 10px;
-    animation: spin 10s linear infinite;
-  }
+.hero-image {
+  grid-column: 1 / -1;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  object-fit: cover;
+  z-index: -1;
 
-  .welcomeCard::before {
-    filter: blur(1.5rem);
-    opacity: 0.5;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
   }
 }
 
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-
-@keyframes spin {
-  0% {
-    --angle: 0deg;
+@keyframes hero-image-animation {
+  25% {
+    opacity: 1;
   }
+  85%,
   100% {
-    --angle: 360deg;
+    opacity: 0;
+    scale: 2;
+  }
+}
+
+@supports (animation-timeline: view()) {
+  .hero {
+    animation: hero-image-animation linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
+  }
+
+  .hero-content {
+    animation: fade-out linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
   }
 }
