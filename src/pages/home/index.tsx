@@ -13,6 +13,7 @@ const Home = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    document.title = "Hem | Anders Och Annas Bröllop";
     const wrapper = wrapperRef.current;
     if (!wrapper) return;
 
