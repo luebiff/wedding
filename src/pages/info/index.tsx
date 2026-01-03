@@ -19,15 +19,13 @@ const Info = () => {
           <h2 className="header2 mb-3">Övrig Information</h2>
           <p className="font-Biryani">
             Vi skulle bli superglada om ni ville komma redan på fredagen och
-            börja festen lite i förväg! Restaurangen är öppen både fredag kväll
-            och lördag lunch för den som vill äta på plats. Om ni hellre önskar
-            annan mat finns det flera andra restauranger bara 5–10 minuter bort
-            med bil. Vigseln börjar kl. 14.00, sedan tårta och middag. Vi
-            avslutar helgen med en mysig frukost tillsammans på söndagen, för
-            att ladda om batterierna efter all dans och fest. Och bara så det är
-            sagt: vi står förstås för själva bröllopet och middagen på kvällen,
-            men resten – som rum och extra måltider – är för egen plånbok. Så,
-            packa era bästa partyoutfits och ert glada humör!
+            börja festen lite i förväg! På lördagen börjar vigseln kl. 14.00,
+            sedan tårta och middag. Vi avslutar helgen med en mysig frukost
+            tillsammans på söndagen, för att ladda om batterierna efter all dans
+            och fest. Och bara så det är sagt: vi står förstås för själva
+            bröllopet och middagen på kvällen, men resten – som rum och extra
+            måltider – är för egen plånbok. Så, packa era bästa partyoutfits och
+            ert glada humör!
           </p>
         </div>
         <div className="mb-6">

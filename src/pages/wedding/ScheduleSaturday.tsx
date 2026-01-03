@@ -46,10 +46,7 @@ const ScheduleSaturday = () => {
           alt="restaurant"
         />
         <h4 className="header4">Lunch (valfri, egen kostnad)</h4>
-        <span className="header4 text-[var(--secondary-text-color)]">
-          Serveras 12.00
-        </span>
-        <p>Kan beställas från Balingsholm via OSA-formuläret </p>
+        <p>Ät var och när ni vill, dock serveras ingen lunch på Balingsholm</p>
 
         <div className="">
           <h5 className="header5">Värt att tänka på:</h5>
@@ -114,7 +111,7 @@ const ScheduleSaturday = () => {
         <p>
           Efter middagen kör vi igång dansgolvet. Musik till 01.30.Glöm inte att
           önska låt när ni OSA – men välj med omsorg. Dålig musik = ingen plats
-          på spellistan .
+          på spellistan.
         </p>
       </div>
     </div>
